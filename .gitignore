@@ -1,0 +1,18 @@
+# Dependencies and build output
+frontend/node_modules/
+frontend/dist/
+backend/target/
+# Local database and runtime files
+backend/data/
+*.db-journal
+*.db-wal
+*.db-shm
+.env
+.idea/
+.vscode/
+
+backend/*.db
+.maven-cache/
+.pnpm-store/
+
+logs/
